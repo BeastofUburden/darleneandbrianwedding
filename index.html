@@ -448,6 +448,25 @@
     font-style: italic;
   }
 
+  /* ── Share the Memories Button ── */
+  .memories-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, var(--deep-sage), var(--deep-lilac));
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.2s, transform 0.1s;
+  }
+  .memories-btn:hover { opacity: 0.9; }
+  .memories-btn:active { transform: scale(0.99); }
+
   /* ── Footer ── */
   footer {
     text-align: center;
@@ -604,7 +623,7 @@ Dancing 5:30pm to 8pm</p>
 <br>
     
     </p>
-    <a href="https://maps.google.com/?q=Hacienda+el+Amanecer+Camuy+Puerto+Rico" target="_blank" style="display: inline-block; padding: 0.7rem 2rem; border: 1px solid var(--gold); color: var(--ink-light); font-family: &quot;Cormorant Garamond&quot;, serif; letter-spacing: 0.15em; text-transform: uppercase; font-size: 0.85rem; text-decoration: none; transition: background 0.2s, color 0.2s; background: transparent;" onmouseover="this.style.background='var(--blush)'" onmouseout="this.style.background='transparent'">
+    <a href="https://maps.google.com/?q=Hacienda+el+Amanecer+Camuy+Puerto+Rico" target="_blank" style="display: inline-block; padding: 0.7rem 2rem; border: 1px solid var(--gold); color: var(--ink); text-decoration: none; font-family: 'Cormorant Garamond', serif; letter-spacing: 0.1em; transition: all 0.2s;">
       Open in Maps ↗
     </a>
   </div>
@@ -691,6 +710,22 @@ Dancing 5:30pm to 8pm</p>
       <p>Your RSVP has been received. We cannot wait to celebrate with you.</p>
       <p style="margin-top:1rem; font-size:0.9rem; opacity:0.7;">— Brian &amp; Darlene</p>
     </div>
+  </div>
+</section>
+
+<div class="floral-divider">✾ ✾ ✾</div>
+
+<!-- Share the Memories Section -->
+<section id="memories" style="max-width:100%; padding:5rem 2rem;">
+  <div style="max-width:640px; margin:0 auto; text-align:center;">
+    <div class="section-label">After the Wedding</div>
+    <h2 class="section-title">Share the Memories</h2>
+    <p style="text-align:center; font-style:italic; color:var(--ink-light); margin-bottom:2.5rem; font-size:1.05rem;">
+      We'd love to see your photos and read your favorite moments from our special day
+    </p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpgKZ2HrZ7IH0vwQt2TpAxBVpM32OvKWtPDMOwxybZnBtayA/viewform?usp=publish-editor" target="_blank" class="memories-btn">
+      Share Your Photos & Memories ✦
+    </a>
   </div>
 </section>
 
